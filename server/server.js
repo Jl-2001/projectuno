@@ -1,7 +1,7 @@
 import express from 'express';
 const app = express();
 import bodyParser from 'body-parser';
-const projectRouter = require('./routes/project.router')
+import pro
 const PORT = process.env.PORT || 5001;
 
 app.use(bodyParser.json())
